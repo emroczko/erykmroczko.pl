@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue';
+    
+}
+body:before {
+    content: "";
+  display: block;
+  position: fixed;
+ 
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(background.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.headerh{
+    display: none;
+}
+/* Style tab links */
+.tablink-container{
+margin-left: auto;
+margin-right: auto;
+display: flex;
+width: 300px;
+padding: 0;
+top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+
+}
+.tablink {
+    background-color: black;
+    color: #ffb356;
+    border: none;
+    cursor: pointer;
+    padding: 16px 16px;
+    width: 100px;
+    margin: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bebas Neue';
+    font-size: larger;
+    
+    
+  }
+  
+  .tablink:hover {
+    background: rgb(23,3,37);
+    background: linear-gradient(90deg, rgba(23,3,37,1) 0%, rgba(121,9,75,1) 28%, rgba(255,101,0,1) 100%);
+    color: black;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    
+    padding: 0;
+    width: 300px;
+    height: 480px;
+    background-color: black;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+  }
+
+.rajza_cover{
+    position: relative;
+    top: 0;
+   padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    width: 300px;
+    background: rgb(7,0,36);
+background: linear-gradient(90deg, rgba(7,0,36,1) 0%, rgba(63,13,65,1) 43%, rgba(138,54,0,1) 100%);
+
+    color: black;
+    
+}
+.hovertxt{
+    display: block;
+    padding-bottom: 4px;
+    padding-top: 10px;
+    margin: 0;
+    z-index: -1;
+    
+    font-size: 6vh;
+    text-align: center;
+    
+  background: -webkit-linear-gradient(90deg, rgba(23,3,37,1) 0%, rgba(121,9,75,1) 28%, rgba(255,101,0,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+    
+.nametxt {
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    background-color: black;
+}
+
+.cover{
+    
+    
+    width: 300px;
+    height: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #B52278;
+
+}
+.info {
+   
+    position: absolute;
+    top: 25px;
+  width: 100%;
+  text-align: center;
+  background: -webkit-linear-gradient(90deg, rgba(23,3,37,1) 0%, rgba(121,9,75,1) 28%, rgba(255,101,0,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 10vh;
+  z-index: -1;
+  
+}
+
+.cover:hover ~ .info{
+z-index: 1;
+}
+.cover:hover {
+    opacity: 0.3;
+}
+.main{
+    margin-left: auto;
+    margin-right: auto;
+}
+.infotxt{
+    width: 300px;
+    color: #c696df;
+    background-color: black;
+    padding: 15px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo{
+    padding: 3px 0;
+    margin: 0;
+    width: 279px;
+}
+.socials-container {
+   
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+    background-color: black;
+}
+.social_links {
+    
+    width: 100%;
+}
+
+.socials {
+    padding: 12px 20px;
+    height: 70px;
+    width: 90px;
+}
+#fb {
+    float: right;
+}
+#ig{ 
+    float: left;
+}
+
+.spotify {
+width: 130px;
+height: 45px;
+}
+.tidal{
+    width: 84px;
+    height: 45px;
+}
+.apple {
+    width: 150px;
+    height: 40px;
+}
+.soundcloud {
+    width: 80px;
+    height: 43px;
+}
+.ytmusic{
+    width: 120px;
+    height: 43px;
+}
+.youtube {
+    width: 100px;
+    height: 45px;
+}
+
+
+
+.links a{
+    display: block; 
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+    
+}
+a:hover {
+    background: rgb(23,3,37);
+    background: linear-gradient(90deg, rgba(23,3,37,1) 0%, rgba(121,9,75,1) 28%, rgba(255,101,0,1) 100%);
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background-color: black;
+}
+.footertxt {
+    display: block;
+    margin: 0%;
+    padding: 14.7px;
+    font-size: 2vh;
+    text-align: center;
+    
+    color: #3b3b3b;
+    width: 300px;
+}

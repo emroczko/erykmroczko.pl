@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ERYK MROCZKO - posłuchaj mnie tu</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Eryk Mroczko - posłuchaj mnie tu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="erykmroczko.css">
+        <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+        <link rel="mask-icon" href="favicon.ico">
+        <script src="erykmroczko.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="headerh" >ERYK MROCZKO</h1>
+        </header>
+        
+        <div class="rajza_cover"> 
+            
+            <img class="cover" id="home" src="rajza_cr.jpg"
+                alt="rajza cover" cursor="pointer" onclick="openInfo()"> 
+            <p class="info" onclick="openInfo()">info</p>
+            
+        </div>
+        <div class="nametxt">
+            <p class="hovertxt">Eryk mroczko</h2>
+        </div>
+        
+        <div class="tablink-container">
+            <button class="tablink" onclick="openPage('Listen', this)" id="defaultOpen"> Posłuchaj</button>
+            <button class="tablink" onclick="openPage('Watch', this)">Obejrzyj</button>
+            <button class="tablink" onclick="openPage('Buy', this)">Kup</button>
+        </div>
+        <div class="main">
+            <div class="infotxt">
+                Rajza jest muzyczną podróżą przez rozterki, myśli i marzenia młodego muzyka. Eryk jest miłośnikiem muzyki lat 80., elektronicznych brzmień, progresywnego rocka oraz melodyjnego disco-popu, a Rajza jest niezwykłą wędrówką łączącą te gatunki. Podczas niej, każdy znajdzie utwór przez który będzie chciał zostać na dłużej. <br>
+                <img class="photo" src="eryk1.jpg" alt="eryk photo" > 
+                Choć sam określa się jako gitarzysta, skomponował całą muzykę i zagrał na każdym instrumencie na płycie. Nie zabrakło tu nowoczesnych brzmień syntezatorów, głębokich basów, jak również soczystych gitarowych solówek. <br>
+                <img class="photo" src="eryk2.jpg" alt="eryk photo" > 
+                Równie ważną materią były dla niego teksty, które napisał wraz z reżyserem jego wszystkich teledysków - Mikołajem Rajkowskim. Ich współpraca pozwoliła na stworzenie audio-wizualnego dzieła, które z pewnością pokochają słuchacze.<br> Rajza już trwa…
+            </div>
+            
+        </div>
+       
+        <div id="Listen" class="tabcontent">
+            <div class="links"> 
+                <a target="blank_" href="https://open.spotify.com/album/1b1yl2aMR5kfGzAMYwM0pg?si=HwVRTsRpRn2jdpTkkVsEXg">
+                    <img class="spotify" src="spotify.png"/></a>
+
+                <a target="blank_" href="https://music.apple.com/pl/album/rajza/1524953619?l=pl">
+                    <img class="apple" src="apple-music.png"/>
+                </a>
+                <a target="blank_" href="tidal.com/browse/album/149913098?play=true">
+                    <img class="tidal" src="tidal.png"/>
+                </a>
+                
+                <a target="blank_" href="https://soundcloud.com/erykmroczko/sets/rajza-1">
+                    <img class="soundcloud" src="soundcloud.png"/>
+                </a>  
+                <a target="blank_" href="https://music.youtube.com/playlist?list=OLAK5uy_nTPAou1rpMQF2LP92pCf14o3oUJCvI-aE">
+                    <img class="ytmusic" src="ytmusic.png"/>
+                </a>  
+            </div>
+            
+        </div>
+        <div id="Watch" class="tabcontent">
+            <div class="links"> 
+                <iframe width="300" height="220" src="https://www.youtube.com/embed/videoseries?list=PL35T_ZVuln4ODAOtjHXTAjYux2F-lqjJD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <a target="blank_" href="https://www.youtube.com/watch?v=CDa5E6F8OhE&list=PL35T_ZVuln4ODAOtjHXTAjYux2F-lqjJD">
+                    <img class="youtube" src="youtube.png"/>
+                </a>
+                
+            </div>
+        </div>
+        <div id="Buy" class="tabcontent">
+            <iframe id="bandcamp" style="border: 0; width: 100%; height: 450px;" seamless><a href="https://erykmroczko.bandcamp.com/album/rajza">RAJZA by Eryk Mroczko</a></iframe>
+        </div>
+        
+        <div class="footer">
+            <div class="socials-container">
+                <a class="social_links" target="_blank" 
+                    href="https://www.facebook.com/Eryk-Mroczko-249472262304946">
+                        <img class="socials"
+                        src="facebook.png" 
+                        alt="link_to_fb" id="fb"> 
+                    </a>
+                    <a class="social_links"
+                    target="_blank" href="https://www.instagram.com/erykrockman/">
+                        <img class="socials"
+                        src="instagram.png" 
+                        alt="link_to_ig" id="ig"> 
+                    </a>
+            </div>
+            
+                <h2 class="footertxt" >©EM</h2>
+            
+           
+        </div>
+        
+        
+    </body>
+</html>
