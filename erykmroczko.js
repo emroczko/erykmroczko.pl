@@ -1,7 +1,11 @@
-document.addEventListener('DOMContentLoaded', function(event){
-
-   // document.getElementById("defaultOpen").click();
-
+$(document).ready(function(){
+    if (localStorage.getItem("cookieSeen") != "shown") {
+        $(".cookie").delay(2000).fadeIn(1000);
+        localStorage.setItem("cookieSeen","shown")
+    };
+    $('.close').click(function() {
+        $('.cookie').fadeOut(1000);
+    })
 });
 
 function openPage(pageName) {
@@ -27,3 +31,4 @@ function openInfo(){
     }
     document.getElementsByClassName("main")[0].style.display = "block";
 }
+

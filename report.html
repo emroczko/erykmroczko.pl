@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ERYK MROCZKO - posłuchaj mnie tu</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Eryk Mroczko - cookie policy">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="report.css">
+        <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+        <link rel="mask-icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1 class="headerh" >ERYK MROCZKO</h1>
+        </header>
+        
+        <div class="rajza_cover"> 
+            
+            <img class="cover" id="home" src="rajza_cr.jpg"
+                alt="rajza cover"> 
+            
+            
+        </div>
+        <div class="nametxt">
+            <p class="hovertxt">Eryk mroczko</h2>
+        </div>
+        
+        
+        
+        <div class="main">
+
+        
+        <div class="cookiestxt"> 
+            <h1 class="title">
+                Zgłoś problem ze stroną:<br>
+            </h1>
+            <div class="form">
+                <form action="https://rayka.pl/server.php" target="_blank" method="post" id="form">
+                 <label for="email">Podaj swój email (opcjonalnie):</label><br>
+                 <input type="email" id="email" name="email" maxlength="35" placeholder="Twój email..." required><br>
+                 <label for="message">Opisz swój problem</label><br>
+                 <textarea type="message" id="message" name="message" maxlength="150" rows="3" placeholder="Twoja wiadomość..." required></textarea><br>
+                 <div id="alert"></div>
+                 <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                 <button id="submit-button" type="submit">Wyślij!</button>
+                 <p class="google-message">Ta strona jest chroniona przez reCAPTCHA i Google.</p>
+                  <p class="google-message"> <a class="google" target="_blank" href="https://policies.google.com/privacy">Polityka Prywatności</a> 
+                   <a class="google" target="_blank" href="https://policies.google.com/terms">Warunki korzystania z usługi</a> 
+               </p>
+               </form>
+            </div>
+        </div>
+        <div class="tablink-container">
+            <form action="/listen">
+            <button class="tablink"  id="defaultOpen"> Powrót do strony głównej</button>
+        </form>
+    </div>
+        <div class="footer">    
+        <h2 class="footertxt" >©EM</h2>
+        </div>
+        
+        
+        
+    </body>
+</html>

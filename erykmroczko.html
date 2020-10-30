@@ -7,7 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="erykmroczko.css">
         <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
-        <link rel="mask-icon" href="favicon.ico">
+        <link rel="mask-icon" sizes="16x16 24x24 32x32 48x48 64x64" href="favicon.ico">
+        <!-- iOS Settings -->
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <script src="jquery-3.5.1.min.js"></script>
         <script src="erykmroczko.js"></script>
     </head>
     <body>
@@ -65,7 +70,7 @@
         </div>
         <div id="Watch" class="tabcontent">
             <div class="links"> 
-                <iframe width="300" height="220" src="https://www.youtube.com/embed/videoseries?list=PL35T_ZVuln4ODAOtjHXTAjYux2F-lqjJD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="youtubeframe" src="https://www.youtube.com/embed/videoseries?list=PL35T_ZVuln4ODAOtjHXTAjYux2F-lqjJD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
                 <a target="blank_" href="https://www.youtube.com/watch?v=CDa5E6F8OhE&list=PL35T_ZVuln4ODAOtjHXTAjYux2F-lqjJD">
                     <img class="youtube" src="youtube.png"/>
@@ -76,6 +81,7 @@
         <div id="Buy" class="tabcontent">
             <iframe id="bandcamp" style="border: 0; width: 100%; height: 450px;" seamless><a href="https://erykmroczko.bandcamp.com/album/rajza">RAJZA by Eryk Mroczko</a></iframe>
         </div>
+       
         
         <div class="footer">
             <div class="socials-container">
@@ -92,10 +98,16 @@
                         alt="link_to_ig" id="ig"> 
                     </a>
             </div>
-            
-                <h2 class="footertxt" >©EM</h2>
-            
+            <div class="footertxtcontainer">
+                <h2 class="foo_txt" >©EM 2020</h2>
+                <a class="foo_link" href="/cookies" target="_blank" >Polityka cookies</a>
+                <a class="foo_link" href="/report" target="_blank" >Zgłoś problem</a>
+            </div>
            
+        </div>
+        <div class="cookie">
+            <p>Korzystając z tej strony udzielasz zgody na naszą <a href="/cookies" class="policy">politykę cookies</a></p>
+            <button class="close">&times;</button>
         </div>
         
         
