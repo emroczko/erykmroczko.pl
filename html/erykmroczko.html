@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            body {font-family: 'Bebas Neue';}
+        </style>
         <title>ERYK MROCZKO - posłuchaj mnie tu</title>
         <meta charset="utf-8">
         <meta name="description" content="Eryk Mroczko - posłuchaj mnie tu">
@@ -21,7 +24,7 @@
         </header>
         
         <div class="rajza_cover"> 
-            
+           
             <img class="cover" id="home" src="rajza_cr.jpg"
                 alt="rajza cover" cursor="pointer" onclick="openInfo()"> 
             <p class="info" onclick="openInfo()">info</p>
@@ -39,16 +42,16 @@
         <div class="main">
             <div class="infotxt">
                 Rajza jest muzyczną podróżą przez rozterki, myśli i marzenia młodego muzyka. Eryk jest miłośnikiem muzyki lat 80., elektronicznych brzmień, progresywnego rocka oraz melodyjnego disco-popu, a Rajza jest niezwykłą wędrówką łączącą te gatunki. Podczas niej, każdy znajdzie utwór przez który będzie chciał zostać na dłużej. <br>
-                <img class="photo" src="eryk1.jpg" alt="eryk photo" > 
+                <img class="photo" id="photo1" src="eryk1.jpg" alt="eryk photo" > 
                 Choć sam określa się jako gitarzysta, skomponował całą muzykę i zagrał na każdym instrumencie na płycie. Nie zabrakło tu nowoczesnych brzmień syntezatorów, głębokich basów, jak również soczystych gitarowych solówek. <br>
-                <img class="photo" src="eryk2.jpg" alt="eryk photo" > 
+                <img class="photo" id="photo2" src="eryk2.jpg" alt="eryk photo" > 
                 Równie ważną materią były dla niego teksty, które napisał wraz z reżyserem jego wszystkich teledysków - Mikołajem Rajkowskim. Ich współpraca pozwoliła na stworzenie audio-wizualnego dzieła, które z pewnością pokochają słuchacze.<br> Rajza już trwa…
             </div>
             
         </div>
        
         <div id="Listen" class="tabcontent">
-            <div class="links"> 
+            <div class="listen-links"> 
                 <a target="blank_" href="https://open.spotify.com/album/1b1yl2aMR5kfGzAMYwM0pg?si=HwVRTsRpRn2jdpTkkVsEXg">
                     <img class="spotify" src="spotify.png"/></a>
 
@@ -69,9 +72,8 @@
             
         </div>
         <div id="Watch" class="tabcontent">
-            <div class="links"> 
-                <iframe class="youtubeframe" src="https://www.youtube.com/embed/videoseries?list=PL35T_ZVuln4ODAOtjHXTAjYux2F-lqjJD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
+            <div class="watch-links"> 
+                <img class="fake_clip" id="clip" src="fakeclip.jpg" alt="obejrzyj rajzę"> 
                 <a target="blank_" href="https://www.youtube.com/watch?v=CDa5E6F8OhE&list=PL35T_ZVuln4ODAOtjHXTAjYux2F-lqjJD">
                     <img class="youtube" src="youtube.png"/>
                 </a>

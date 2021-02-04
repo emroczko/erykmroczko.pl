@@ -129,6 +129,43 @@ background: linear-gradient(90deg, rgba(7,0,36,1) 0%, rgba(63,13,65,1) 43%, rgba
     text-align: center;
 }
 
+#email, #message, #submit-button{
+    width: 250px;
+    background: rgb(23,3,37);
+    background: linear-gradient(90deg, rgb(52, 9, 83) 0%, rgba(121,9,75,1) 28%, rgba(255,101,0,1) 100%);
+    border: none;
+    border-radius: 2px;
+font-family: "Bebas Neue";
+font-size: larger;
+text-align: center;
+}
+#email {
+    
+    padding: 10px;
+}
+#message {
+    padding: 10px;
+    
+}
+#submit-button {
+    height: 30px;
+    padding: 5px;
+    
+}
+#submit-button:hover{
+    background: linear-gradient(90deg, rgb(18, 1, 31) 0%, rgb(90, 5, 54) 28%, rgb(170, 68, 0) 100%);
+    color: #c696df;
+}
+
+.google {
+    color: #c696df;
+}
+.google:hover {
+    color: #B52278;
+}
+.grecaptcha-badge {
+    visibility: hidden;
+  }
 
 .footer {
     margin-left: auto;
@@ -146,6 +183,43 @@ background: linear-gradient(90deg, rgba(7,0,36,1) 0%, rgba(63,13,65,1) 43%, rgba
     color: #3b3b3b;
     width: 300px;
 }
+.cookie {
+    display: none;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    padding: 5px 14px;
+    
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+ 
+    color: #c696df;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .policy {
+    color: #c696df;
+    text-decoration: underline;
+    padding-left: 0; 
+  }
+  .close {
+    display: none;
+    padding: 0;
+display: inline-block;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(23,3,37,1) 0%, rgba(121,9,75,1) 28%, rgba(255,101,0,1) 100%);
+    width: 20%;
+border-radius: 2px;
+    text-align: center;
+font-size: 26px;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
 
 
 @media only screen 
@@ -158,6 +232,7 @@ width: 600px;
     width: 600px;       
   }
   
+
   
 .rajza_cover{
     width: 600px;
@@ -179,8 +254,15 @@ width: 600px;
     padding: 15px 10px;
 
 }
-
-
+#email{
+    width: 500px;
+}
+#message {
+    width: 500px;
+}
+#submit-button {
+    width: 500px;
+}
 
 .footer {
     width: 600px;
@@ -193,5 +275,42 @@ width: 600px;
     
     width: 600px;
 }
+.cookie {
+    display: none;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    width: 25%;
+    padding: 0px 14px 14px 14px;
+    float: right;
+    display: flex;
+   
+    flex-direction: column;
+    background-color: black;
+ 
+    color: #c696df;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .policy {
+    color: #c696df;
+    text-decoration: underline;
+    padding-left: 0; 
+    padding-top: 0;
+  }
+  .close {
+    display: none;
+    padding-bottom: 2px;
+display: inline-block;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(23,3,37,1) 0%, rgba(121,9,75,1) 28%, rgba(255,101,0,1) 100%);
+    width: 100%;
+border-radius: 2px;
+    text-align: center;
+font-size: 26px;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
 
 }
