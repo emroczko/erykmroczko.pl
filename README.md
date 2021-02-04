@@ -1,2 +1,2 @@
 # erykmroczko.pl
-New webpage, old one still exists 
+This is a code for my own webpage. 
